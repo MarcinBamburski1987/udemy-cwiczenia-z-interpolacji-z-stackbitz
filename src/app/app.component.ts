@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'ćwiczenia';
   num1 = 40;
   num2 = '4';
+  num3 = 4;
   falsity = false;
 
   dog = {
@@ -35,5 +36,9 @@ export class AppComponent {
 
   divider() {
     return 3;
+  }
+
+  substractNumbers() : number{
+    return this.num1 - this.num3;
   }
 }
