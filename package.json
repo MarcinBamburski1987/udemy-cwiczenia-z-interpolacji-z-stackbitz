@@ -17,7 +17,8 @@
     "@angular/animations": "9.0.1",
     "@angular/platform-browser": "9.0.1",
     "@angular/platform-browser-dynamic": "9.0.1",
-    "kind-of": ">=6.0.3"
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.3"
   },
   "scripts": {
     "ng": "ng",
